@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer components {
+  .scroll-container {
+    @apply h-screen; /* 使用动态视口单位 */
+  }
+  /* .text-style {
+    @apply  text-[75px] leading-[76.8px] tracking-normal align-middle relative z-[9999];
+    background: linear-gradient(83.41deg, #055BFA -2.22%, #1BEDA7 20.25%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Alexandria', sans-serif;
+  } */
+  /* .title {
+    @apply h-32 flex items-center;
+  }
+  .table-header {
+    @apply col-span-full text-2xl ;
+  } */
+  /* .container {
+    @apply max-w-[1200px] h-[512px] mx-auto relative;
+  } */
+  /* table {
+    @apply w-full border-collapse my-5 bg-[#1A1A1A] text-white rounded-xl;
+  } */
+    /* .first {
+      @apply h-[60px] relative;
+    }
+    th {
+      @apply align-middle pt-5;
+    } */
+  /* th, td {
+    @apply px-5 text-left border-b border-[#C2C2C24D] max-w-[140px] text-xs h-10 leading-10 overflow-hidden whitespace-nowrap text-ellipsis;
+  }
+  tfoot td {
+    @apply border-b-0;
+  }
+  .hash {
+    @apply text-xs text-[#666] break-all whitespace-nowrap overflow-hidden text-ellipsis max-w-[160px];
+  }
+  .status {
+    @apply text-sm;
+  } */
+  /* .status.confirmed {
+    @apply text-[#2e7d32];
+  }
+  .status.pending {
+    @apply text-[#856404];
+  }
+  .status.failed {
+    @apply text-[#721c24];
+  } */
+  /* .pagination {
+    @apply flex justify-center items-center gap-5 mt-5;
+  } */
+      /* .container button {
+        @apply px-4 py-2 cursor-pointer;
+      } */
+      /* .container button:disabled {
+        @apply opacity-50 cursor-not-allowed;
+      } */
+}
